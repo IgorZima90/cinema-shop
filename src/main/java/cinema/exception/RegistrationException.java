@@ -1,4 +1,4 @@
-package mate.academy.exception;
+package cinema.exception;
 
 public class RegistrationException extends Exception {
     public RegistrationException(String message) {

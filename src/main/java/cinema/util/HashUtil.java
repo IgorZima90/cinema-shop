@@ -1,4 +1,4 @@
-package mate.academy.util;
+package cinema.util;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

@@ -1,7 +1,6 @@
-package mate.academy.dao;
+package cinema.dao;
 
-import mate.academy.model.MovieSession;
-
+import cinema.model.MovieSession;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;

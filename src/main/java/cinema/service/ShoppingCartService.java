@@ -1,8 +1,8 @@
-package mate.academy.service;
+package cinema.service;
 
-import mate.academy.model.MovieSession;
-import mate.academy.model.ShoppingCart;
-import mate.academy.model.User;
+import cinema.model.MovieSession;
+import cinema.model.ShoppingCart;
+import cinema.model.User;
 
 public interface ShoppingCartService {
     void addSession(MovieSession movieSession, User user);

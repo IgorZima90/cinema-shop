@@ -1,12 +1,11 @@
-package mate.academy.service.impl;
+package cinema.service.impl;
 
-import mate.academy.dao.UserDao;
-import mate.academy.lib.Inject;
-import mate.academy.lib.Service;
-import mate.academy.model.User;
-import mate.academy.service.UserService;
-import mate.academy.util.HashUtil;
-
+import cinema.dao.UserDao;
+import cinema.lib.Inject;
+import cinema.lib.Service;
+import cinema.model.User;
+import cinema.service.UserService;
+import cinema.util.HashUtil;
 import java.util.Optional;
 
 @Service

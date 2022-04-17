@@ -1,7 +1,6 @@
-package mate.academy.service;
+package cinema.service;
 
-import mate.academy.model.User;
-
+import cinema.model.User;
 import java.util.Optional;
 
 public interface UserService {

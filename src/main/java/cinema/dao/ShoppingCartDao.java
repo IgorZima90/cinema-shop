@@ -1,7 +1,7 @@
-package mate.academy.dao;
+package cinema.dao;
 
-import mate.academy.model.ShoppingCart;
-import mate.academy.model.User;
+import cinema.model.ShoppingCart;
+import cinema.model.User;
 
 public interface ShoppingCartDao {
     ShoppingCart add(ShoppingCart shoppingCart);

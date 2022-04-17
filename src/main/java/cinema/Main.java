@@ -1,20 +1,24 @@
-package mate.academy;
+package cinema;
 
-import mate.academy.exception.AuthenticationException;
-import mate.academy.exception.RegistrationException;
-import mate.academy.lib.Injector;
-import mate.academy.model.CinemaHall;
-import mate.academy.model.Movie;
-import mate.academy.model.MovieSession;
-import mate.academy.model.User;
-import mate.academy.security.AuthenticationService;
-import mate.academy.service.*;
-
+import cinema.exception.AuthenticationException;
+import cinema.exception.RegistrationException;
+import cinema.lib.Injector;
+import cinema.model.CinemaHall;
+import cinema.model.Movie;
+import cinema.model.MovieSession;
+import cinema.model.User;
+import cinema.security.AuthenticationService;
+import cinema.service.CinemaHallService;
+import cinema.service.MovieService;
+import cinema.service.MovieSessionService;
+import cinema.service.OrderService;
+import cinema.service.ShoppingCartService;
+import cinema.service.UserService;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 public class Main {
-    private static final Injector injector = Injector.getInstance("mate.academy");
+    private static final Injector injector = Injector.getInstance("cinema");
 
     public static void main(String[] args) throws RegistrationException, AuthenticationException {
         MovieService movieService = (MovieService) injector.getInstance(MovieService.class);

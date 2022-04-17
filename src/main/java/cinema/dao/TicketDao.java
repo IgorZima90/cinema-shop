@@ -1,6 +1,6 @@
-package mate.academy.dao;
+package cinema.dao;
 
-import mate.academy.model.Ticket;
+import cinema.model.Ticket;
 
 public interface TicketDao {
     Ticket add(Ticket ticket);

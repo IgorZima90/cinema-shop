@@ -1,14 +1,13 @@
-package mate.academy.security;
+package cinema.security;
 
-import mate.academy.exception.AuthenticationException;
-import mate.academy.exception.RegistrationException;
-import mate.academy.lib.Inject;
-import mate.academy.lib.Service;
-import mate.academy.model.User;
-import mate.academy.service.ShoppingCartService;
-import mate.academy.service.UserService;
-import mate.academy.util.HashUtil;
-
+import cinema.exception.AuthenticationException;
+import cinema.exception.RegistrationException;
+import cinema.lib.Inject;
+import cinema.lib.Service;
+import cinema.model.User;
+import cinema.service.ShoppingCartService;
+import cinema.service.UserService;
+import cinema.util.HashUtil;
 import java.util.Optional;
 
 @Service

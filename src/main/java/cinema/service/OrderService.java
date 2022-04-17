@@ -1,9 +1,8 @@
-package mate.academy.service;
+package cinema.service;
 
-import mate.academy.model.Order;
-import mate.academy.model.ShoppingCart;
-import mate.academy.model.User;
-
+import cinema.model.Order;
+import cinema.model.ShoppingCart;
+import cinema.model.User;
 import java.util.List;
 
 public interface OrderService {

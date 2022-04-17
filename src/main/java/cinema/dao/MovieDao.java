@@ -1,7 +1,6 @@
-package mate.academy.dao;
+package cinema.dao;
 
-import mate.academy.model.Movie;
-
+import cinema.model.Movie;
 import java.util.List;
 import java.util.Optional;
 

@@ -1,14 +1,13 @@
-package mate.academy.service.impl;
+package cinema.service.impl;
 
-import mate.academy.dao.OrderDao;
-import mate.academy.lib.Inject;
-import mate.academy.lib.Service;
-import mate.academy.model.Order;
-import mate.academy.model.ShoppingCart;
-import mate.academy.model.User;
-import mate.academy.service.OrderService;
-import mate.academy.service.ShoppingCartService;
-
+import cinema.dao.OrderDao;
+import cinema.lib.Inject;
+import cinema.lib.Service;
+import cinema.model.Order;
+import cinema.model.ShoppingCart;
+import cinema.model.User;
+import cinema.service.OrderService;
+import cinema.service.ShoppingCartService;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;

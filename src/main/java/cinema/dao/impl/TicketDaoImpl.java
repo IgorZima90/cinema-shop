@@ -1,10 +1,10 @@
-package mate.academy.dao.impl;
+package cinema.dao.impl;
 
-import mate.academy.dao.TicketDao;
-import mate.academy.exception.DataProcessingException;
-import mate.academy.lib.Dao;
-import mate.academy.model.Ticket;
-import mate.academy.util.HibernateUtil;
+import cinema.dao.TicketDao;
+import cinema.exception.DataProcessingException;
+import cinema.lib.Dao;
+import cinema.model.Ticket;
+import cinema.util.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 

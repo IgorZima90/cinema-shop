@@ -1,7 +1,6 @@
-package mate.academy.dao;
+package cinema.dao;
 
-import mate.academy.model.User;
-
+import cinema.model.User;
 import java.util.Optional;
 
 public interface UserDao {

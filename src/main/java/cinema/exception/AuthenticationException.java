@@ -1,4 +1,4 @@
-package mate.academy.exception;
+package cinema.exception;
 
 public class AuthenticationException extends Exception {
     public AuthenticationException(String message) {
