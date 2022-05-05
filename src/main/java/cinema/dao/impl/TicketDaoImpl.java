@@ -1,8 +1,8 @@
-package mate.academy.spring.dao.impl;
+package cinema.dao.impl;
 
-import mate.academy.spring.dao.AbstractDao;
-import mate.academy.spring.dao.TicketDao;
-import mate.academy.spring.model.Ticket;
+import cinema.dao.AbstractDao;
+import cinema.dao.TicketDao;
+import cinema.model.Ticket;
 import org.hibernate.SessionFactory;
 import org.springframework.stereotype.Repository;
 

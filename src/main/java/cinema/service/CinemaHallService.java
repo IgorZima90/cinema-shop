@@ -1,7 +1,7 @@
-package mate.academy.spring.service;
+package cinema.service;
 
+import cinema.model.CinemaHall;
 import java.util.List;
-import mate.academy.spring.model.CinemaHall;
 
 public interface CinemaHallService {
     CinemaHall add(CinemaHall cinemaHall);

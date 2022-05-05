@@ -1,12 +1,12 @@
-package mate.academy.spring.service.impl;
+package cinema.service.impl;
 
-import mate.academy.spring.model.User;
-import mate.academy.spring.service.UserService;
+import cinema.model.User;
+import cinema.service.UserService;
+import org.springframework.security.core.userdetails.User.UserBuilder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
-import org.springframework.security.core.userdetails.User.UserBuilder;
 
 @Service
 public class CustomUserDetailsService implements UserDetailsService {

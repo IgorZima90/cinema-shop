@@ -1,12 +1,12 @@
-package mate.academy.spring.service.impl;
+package cinema.service.impl;
 
-import mate.academy.spring.dao.ShoppingCartDao;
-import mate.academy.spring.dao.TicketDao;
-import mate.academy.spring.model.MovieSession;
-import mate.academy.spring.model.ShoppingCart;
-import mate.academy.spring.model.Ticket;
-import mate.academy.spring.model.User;
-import mate.academy.spring.service.ShoppingCartService;
+import cinema.dao.ShoppingCartDao;
+import cinema.dao.TicketDao;
+import cinema.model.MovieSession;
+import cinema.model.ShoppingCart;
+import cinema.model.Ticket;
+import cinema.model.User;
+import cinema.service.ShoppingCartService;
 import org.springframework.stereotype.Service;
 
 @Service

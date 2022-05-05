@@ -1,4 +1,4 @@
-package mate.academy.spring.dto.request;
+package cinema.dto.request;
 
 import javax.validation.constraints.Min;
 import javax.validation.constraints.Size;

@@ -1,9 +1,9 @@
-package mate.academy.spring.dao;
+package cinema.dao;
 
+import cinema.model.MovieSession;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
-import mate.academy.spring.model.MovieSession;
 
 public interface MovieSessionDao {
     MovieSession add(MovieSession movieSession);

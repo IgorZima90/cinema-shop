@@ -1,7 +1,7 @@
-package mate.academy.spring.service.mapper;
+package cinema.service.mapper;
 
-import mate.academy.spring.dto.response.UserResponseDto;
-import mate.academy.spring.model.User;
+import cinema.dto.response.UserResponseDto;
+import cinema.model.User;
 import org.springframework.stereotype.Component;
 
 @Component

@@ -1,4 +1,4 @@
-package mate.academy.spring.controller;
+package cinema.controller;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.GetMapping;
