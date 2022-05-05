@@ -1,8 +1,8 @@
-package cinema.dao;
+package mate.academy.spring.dao;
 
-import cinema.model.Movie;
 import java.util.List;
 import java.util.Optional;
+import mate.academy.spring.model.Movie;
 
 public interface MovieDao {
     Movie add(Movie movie);

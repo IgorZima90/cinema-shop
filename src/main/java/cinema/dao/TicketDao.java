@@ -1,6 +1,6 @@
-package cinema.dao;
+package mate.academy.spring.dao;
 
-import cinema.model.Ticket;
+import mate.academy.spring.model.Ticket;
 
 public interface TicketDao {
     Ticket add(Ticket ticket);

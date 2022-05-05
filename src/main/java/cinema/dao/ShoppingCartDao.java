@@ -1,12 +1,12 @@
-package cinema.dao;
+package mate.academy.spring.dao;
 
-import cinema.model.ShoppingCart;
-import cinema.model.User;
+import mate.academy.spring.model.ShoppingCart;
+import mate.academy.spring.model.User;
 
 public interface ShoppingCartDao {
     ShoppingCart add(ShoppingCart shoppingCart);
 
     ShoppingCart getByUser(User user);
 
-    void update(ShoppingCart shoppingCart);
+    ShoppingCart update(ShoppingCart shoppingCart);
 }
