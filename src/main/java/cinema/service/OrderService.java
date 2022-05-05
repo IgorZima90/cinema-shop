@@ -1,9 +1,9 @@
-package cinema.service;
+package mate.academy.spring.service;
 
-import cinema.model.Order;
-import cinema.model.ShoppingCart;
-import cinema.model.User;
 import java.util.List;
+import mate.academy.spring.model.Order;
+import mate.academy.spring.model.ShoppingCart;
+import mate.academy.spring.model.User;
 
 public interface OrderService {
     Order completeOrder(ShoppingCart shoppingCart);

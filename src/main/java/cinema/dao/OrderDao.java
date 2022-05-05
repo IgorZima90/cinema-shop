@@ -1,11 +1,11 @@
-package cinema.dao;
+package mate.academy.spring.dao;
 
-import cinema.model.Order;
-import cinema.model.User;
 import java.util.List;
+import mate.academy.spring.model.Order;
+import mate.academy.spring.model.User;
 
 public interface OrderDao {
     Order add(Order order);
 
-    List<Order> getHistoryByUser(User user);
+    List<Order> getOrdersHistory(User user);
 }

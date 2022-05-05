@@ -1,4 +1,4 @@
-package cinema.model;
+package mate.academy.spring.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -44,7 +44,6 @@ public class CinemaHall {
         return "CinemaHall{"
                 + "id=" + id
                 + ", capacity=" + capacity
-                + ", description='" + description + '\''
-                + '}';
+                + ", description='" + description + '\'' + '}';
     }
 }
