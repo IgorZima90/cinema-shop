@@ -1,8 +1,8 @@
-package mate.academy.spring.dao.impl;
+package cinema.dao.impl;
 
-import mate.academy.spring.dao.AbstractDao;
-import mate.academy.spring.dao.MovieDao;
-import mate.academy.spring.model.Movie;
+import cinema.dao.AbstractDao;
+import cinema.dao.MovieDao;
+import cinema.model.Movie;
 import org.hibernate.SessionFactory;
 import org.springframework.stereotype.Repository;
 

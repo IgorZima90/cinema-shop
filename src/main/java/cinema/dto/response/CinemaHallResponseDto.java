@@ -1,4 +1,4 @@
-package mate.academy.spring.dto.response;
+package cinema.dto.response;
 
 public class CinemaHallResponseDto {
     private Long id;

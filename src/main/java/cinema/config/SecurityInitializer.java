@@ -1,4 +1,4 @@
-package mate.academy.spring.config;
+package cinema.config;
 
 import org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer;
 

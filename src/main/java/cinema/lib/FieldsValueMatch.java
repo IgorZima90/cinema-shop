@@ -1,4 +1,4 @@
-package mate.academy.spring.lib;
+package cinema.lib;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

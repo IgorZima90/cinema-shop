@@ -1,4 +1,4 @@
-package mate.academy.spring.exception;
+package cinema.exception;
 
 public class DataProcessingException extends RuntimeException {
     public DataProcessingException(String message, Throwable cause) {

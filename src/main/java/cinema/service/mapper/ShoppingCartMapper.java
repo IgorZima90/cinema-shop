@@ -1,9 +1,9 @@
-package mate.academy.spring.service.mapper;
+package cinema.service.mapper;
 
+import cinema.dto.response.ShoppingCartResponseDto;
+import cinema.model.ShoppingCart;
+import cinema.model.Ticket;
 import java.util.stream.Collectors;
-import mate.academy.spring.dto.response.ShoppingCartResponseDto;
-import mate.academy.spring.model.ShoppingCart;
-import mate.academy.spring.model.Ticket;
 import org.springframework.stereotype.Component;
 
 @Component

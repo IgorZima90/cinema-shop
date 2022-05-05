@@ -1,4 +1,4 @@
-package mate.academy.spring.model;
+package cinema.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

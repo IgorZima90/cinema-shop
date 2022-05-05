@@ -1,15 +1,15 @@
-package mate.academy.spring.controller;
+package cinema.controller;
 
+import cinema.dto.response.OrderResponseDto;
+import cinema.model.Order;
+import cinema.model.ShoppingCart;
+import cinema.model.User;
+import cinema.service.OrderService;
+import cinema.service.ShoppingCartService;
+import cinema.service.UserService;
+import cinema.service.mapper.ResponseDtoMapper;
 import java.util.List;
 import java.util.stream.Collectors;
-import mate.academy.spring.dto.response.OrderResponseDto;
-import mate.academy.spring.model.Order;
-import mate.academy.spring.model.ShoppingCart;
-import mate.academy.spring.model.User;
-import mate.academy.spring.service.OrderService;
-import mate.academy.spring.service.ShoppingCartService;
-import mate.academy.spring.service.UserService;
-import mate.academy.spring.service.mapper.ResponseDtoMapper;
 import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;

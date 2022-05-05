@@ -1,7 +1,7 @@
-package mate.academy.spring.service;
+package cinema.service;
 
+import cinema.model.Role;
 import java.util.Optional;
-import mate.academy.spring.model.Role;
 
 public interface RoleService {
     Role save(Role role);

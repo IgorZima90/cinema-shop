@@ -1,9 +1,9 @@
-package mate.academy.spring.service.impl;
+package cinema.service.impl;
 
+import cinema.dao.RoleDao;
+import cinema.model.Role;
+import cinema.service.RoleService;
 import java.util.Optional;
-import mate.academy.spring.dao.RoleDao;
-import mate.academy.spring.model.Role;
-import mate.academy.spring.service.RoleService;
 import org.springframework.stereotype.Service;
 
 @Service

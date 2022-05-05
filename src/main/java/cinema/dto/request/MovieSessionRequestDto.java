@@ -1,4 +1,4 @@
-package mate.academy.spring.dto.request;
+package cinema.dto.request;
 
 import java.time.LocalDateTime;
 import javax.validation.constraints.NotNull;

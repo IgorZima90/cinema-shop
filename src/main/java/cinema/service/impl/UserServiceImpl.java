@@ -1,9 +1,9 @@
-package mate.academy.spring.service.impl;
+package cinema.service.impl;
 
+import cinema.dao.UserDao;
+import cinema.model.User;
+import cinema.service.UserService;
 import java.util.Optional;
-import mate.academy.spring.dao.UserDao;
-import mate.academy.spring.model.User;
-import mate.academy.spring.service.UserService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 

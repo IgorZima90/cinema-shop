@@ -1,4 +1,4 @@
-package mate.academy.spring.model;
+package cinema.model;
 
 import java.util.Set;
 import javax.persistence.Column;
